@@ -2,7 +2,7 @@
 let sound = ["applause", "boo", "gasp", "tada", "victory", "wrong", "stop"];
 document.querySelectorAll(".btn").forEach((button) => {
 	button.addEventListener("click", () => {
-		stopSound();
+		stopSounds();
 
 		const sound = button.textContent.trim();
 	    const audio = document.createElement("audio");
